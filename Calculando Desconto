@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	double total, desconto, pagar;
+	cout<<"Digite o valor da compra: ";
+	cin>>(total);
+	
+	desconto=total * 5 /100;
+	pagar = total - desconto;
+	
+	cout<<"Valor a pagar: R$" << pagar;
+	return 0;	
+}
